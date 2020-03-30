@@ -1,6 +1,6 @@
 package aula;
 
-public class RH {
+public abstract class RH {
 
 	public static boolean validarCPF(String cpf) {
 		if (cpf.length() >= 11) {
